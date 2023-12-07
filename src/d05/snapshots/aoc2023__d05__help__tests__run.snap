@@ -1,0 +1,139 @@
+---
+source: src/d05/help.rs
+expression: get_almanac()
+---
+Almanac {
+    seeds: [
+        79,
+        14,
+        55,
+        13,
+    ],
+    maps: [
+        AlmMap {
+            title: "seed-to-soil map:",
+            config: [
+                (
+                    50,
+                    98,
+                    2,
+                ),
+                (
+                    52,
+                    50,
+                    48,
+                ),
+            ],
+        },
+        AlmMap {
+            title: "soil-to-fertilizer map:",
+            config: [
+                (
+                    0,
+                    15,
+                    37,
+                ),
+                (
+                    37,
+                    52,
+                    2,
+                ),
+                (
+                    39,
+                    0,
+                    15,
+                ),
+            ],
+        },
+        AlmMap {
+            title: "fertilizer-to-water map:",
+            config: [
+                (
+                    49,
+                    53,
+                    8,
+                ),
+                (
+                    0,
+                    11,
+                    42,
+                ),
+                (
+                    42,
+                    0,
+                    7,
+                ),
+                (
+                    57,
+                    7,
+                    4,
+                ),
+            ],
+        },
+        AlmMap {
+            title: "water-to-light map:",
+            config: [
+                (
+                    88,
+                    18,
+                    7,
+                ),
+                (
+                    18,
+                    25,
+                    70,
+                ),
+            ],
+        },
+        AlmMap {
+            title: "light-to-temperature map:",
+            config: [
+                (
+                    45,
+                    77,
+                    23,
+                ),
+                (
+                    81,
+                    45,
+                    19,
+                ),
+                (
+                    68,
+                    64,
+                    13,
+                ),
+            ],
+        },
+        AlmMap {
+            title: "temperature-to-humidity map:",
+            config: [
+                (
+                    0,
+                    69,
+                    1,
+                ),
+                (
+                    1,
+                    0,
+                    69,
+                ),
+            ],
+        },
+        AlmMap {
+            title: "humidity-to-location map:",
+            config: [
+                (
+                    60,
+                    56,
+                    37,
+                ),
+                (
+                    56,
+                    93,
+                    4,
+                ),
+            ],
+        },
+    ],
+}

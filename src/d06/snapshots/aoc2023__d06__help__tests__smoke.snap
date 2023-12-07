@@ -1,0 +1,18 @@
+---
+source: src/d06/help.rs
+expression: parsed
+---
+[
+    (
+        7,
+        9,
+    ),
+    (
+        15,
+        40,
+    ),
+    (
+        30,
+        200,
+    ),
+]

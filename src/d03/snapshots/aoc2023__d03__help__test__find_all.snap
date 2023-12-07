@@ -1,0 +1,66 @@
+---
+source: src/d03/help.rs
+expression: nums
+---
+[
+    NumPos {
+        line_no: 0,
+        col_no: 3,
+        num: 467,
+        digits_count: 3,
+    },
+    NumPos {
+        line_no: 0,
+        col_no: 8,
+        num: 114,
+        digits_count: 3,
+    },
+    NumPos {
+        line_no: 2,
+        col_no: 4,
+        num: 35,
+        digits_count: 2,
+    },
+    NumPos {
+        line_no: 2,
+        col_no: 9,
+        num: 633,
+        digits_count: 3,
+    },
+    NumPos {
+        line_no: 4,
+        col_no: 3,
+        num: 617,
+        digits_count: 3,
+    },
+    NumPos {
+        line_no: 5,
+        col_no: 9,
+        num: 58,
+        digits_count: 2,
+    },
+    NumPos {
+        line_no: 6,
+        col_no: 5,
+        num: 592,
+        digits_count: 3,
+    },
+    NumPos {
+        line_no: 7,
+        col_no: 9,
+        num: 755,
+        digits_count: 3,
+    },
+    NumPos {
+        line_no: 9,
+        col_no: 4,
+        num: 664,
+        digits_count: 3,
+    },
+    NumPos {
+        line_no: 9,
+        col_no: 8,
+        num: 598,
+        digits_count: 3,
+    },
+]

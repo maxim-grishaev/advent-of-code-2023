@@ -1,0 +1,66 @@
+---
+source: src/d07/poker.rs
+expression: games
+---
+[
+    GameItem {
+        card_stack: CardsStack {
+            stack: [
+                Card 3,
+                Card 2,
+                Card T,
+                Card 3,
+                Card K,
+            ],
+        },
+        bid: 765,
+    },
+    GameItem {
+        card_stack: CardsStack {
+            stack: [
+                Card T,
+                Card 5,
+                Card 5,
+                Card J,
+                Card 5,
+            ],
+        },
+        bid: 684,
+    },
+    GameItem {
+        card_stack: CardsStack {
+            stack: [
+                Card K,
+                Card K,
+                Card 6,
+                Card 7,
+                Card 7,
+            ],
+        },
+        bid: 28,
+    },
+    GameItem {
+        card_stack: CardsStack {
+            stack: [
+                Card K,
+                Card T,
+                Card J,
+                Card J,
+                Card T,
+            ],
+        },
+        bid: 220,
+    },
+    GameItem {
+        card_stack: CardsStack {
+            stack: [
+                Card Q,
+                Card Q,
+                Card Q,
+                Card J,
+                Card A,
+            ],
+        },
+        bid: 483,
+    },
+]

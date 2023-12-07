@@ -1,0 +1,10 @@
+---
+source: src/d06/help.rs
+expression: "find_all_race_times(&parsed[0].0, &parsed[0].1)"
+---
+[
+    10,
+    12,
+    12,
+    10,
+]
