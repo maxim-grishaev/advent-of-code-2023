@@ -1,6 +1,6 @@
 use crate::util;
 
-pub fn read_thing() -> String {
+pub fn read_data() -> String {
     util::fs::read_file(file!(), ".txt")
 }
 
@@ -9,17 +9,13 @@ pub mod t {
     use super::*;
     // use insta::assert_debug_snapshot;
 
-    pub const STR: &str = r#"
+    pub const EXAMPLE: &str = r#"
 
     "#;
-
-    fn get_test() -> String {
-        STR.trim().to_string()
-    }
 
     #[ignore = "template"]
     #[test]
     fn test_run() {
-        assert_eq!(read_thing(), "");
+        assert_eq!(read_data(), "");
     }
 }
