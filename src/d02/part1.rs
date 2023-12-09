@@ -1,5 +1,5 @@
 use super::cfg;
-use crate::help::fs;
+use crate::util::fs;
 
 pub fn run() -> u32 {
     fs::read_file(file!(), "games.txt")

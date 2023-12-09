@@ -1,17 +1,26 @@
 use super::help;
 
+pub fn run_str(_str: &str) -> u128 {
+    todo!()
+}
+
 pub fn run() -> u128 {
-    0
+    run_str(&help::read_thing())
 }
 
 #[cfg(test)]
 mod tests {
+    use super::super::help::t;
+    use super::*;
     // use insta::assert_debug_snapshot;
 
-    use super::*;
-
+    #[ignore = "todo"]
     #[test]
-    fn test_run() {
+    fn the_run() {
         assert_eq!(run(), 123);
+    }
+
+    fn test_run() {
+        assert_eq!(run_str(t::STR), 123);
     }
 }

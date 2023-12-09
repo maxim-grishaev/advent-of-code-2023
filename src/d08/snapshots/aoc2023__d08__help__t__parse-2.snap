@@ -1,0 +1,21 @@
+---
+source: src/d08/help.rs
+expression: parse_map(MAP_2.trim())
+---
+Map {
+    dir: "LLR",
+    map: {
+        "BBB": (
+            "AAA",
+            "ZZZ",
+        ),
+        "ZZZ": (
+            "ZZZ",
+            "ZZZ",
+        ),
+        "AAA": (
+            "BBB",
+            "BBB",
+        ),
+    },
+}

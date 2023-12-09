@@ -4,15 +4,10 @@ pub fn read_thing() -> String {
     util::fs::read_file(file!(), ".txt")
 }
 
-pub fn parse_thing(str: String) -> u32 {
-    0
-}
-
 #[cfg(test)]
 pub mod t {
-    // use insta::assert_debug_snapshot;
-
     use super::*;
+    // use insta::assert_debug_snapshot;
 
     pub const STR: &str = r#"
 
@@ -22,8 +17,9 @@ pub mod t {
         STR.trim().to_string()
     }
 
+    #[ignore = "template"]
     #[test]
     fn test_run() {
-        assert_eq!(parse_thing(get_thing()), None);
+        assert_eq!(read_thing(), "");
     }
 }

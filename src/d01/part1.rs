@@ -1,5 +1,5 @@
 use super::util;
-use crate::help::fs;
+use crate::util::fs;
 
 pub fn run() -> u32 {
     let input = fs::read_file(file!(), "input.txt");

@@ -6,10 +6,10 @@ pub fn run() -> u128 {
 
 #[cfg(test)]
 mod tests {
+    use super::*;
     // use insta::assert_debug_snapshot;
 
-    use super::*;
-
+    #[ignore = "todo"]
     #[test]
     fn test_run() {
         assert_eq!(run(), 123);

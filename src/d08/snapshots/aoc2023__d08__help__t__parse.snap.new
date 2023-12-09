@@ -1,0 +1,38 @@
+---
+source: src/d08/help.rs
+assertion_line: 35
+expression: "Map::from(MAP_1.trim())"
+---
+Map {
+    dir: "RL",
+    nodes: {
+        "AAA": (
+            "BBB",
+            "CCC",
+        ),
+        "CCC": (
+            "ZZZ",
+            "GGG",
+        ),
+        "GGG": (
+            "GGG",
+            "GGG",
+        ),
+        "DDD": (
+            "DDD",
+            "DDD",
+        ),
+        "ZZZ": (
+            "ZZZ",
+            "ZZZ",
+        ),
+        "EEE": (
+            "EEE",
+            "EEE",
+        ),
+        "BBB": (
+            "DDD",
+            "EEE",
+        ),
+    },
+}
