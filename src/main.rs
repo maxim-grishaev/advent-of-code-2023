@@ -8,6 +8,7 @@ mod d06;
 mod d07;
 mod d08;
 mod d09;
+mod d10;
 mod util;
 
 fn main() {
@@ -73,6 +74,13 @@ fn main() {
                 "Day 09: 1. {:?} 2. {:?}",
                 d09::part1::run(),
                 d09::part2::run()
+            )
+        },
+        || {
+            println!(
+                "Day 10: 1. {:?} 2. {:?}",
+                d10::part1::run(),
+                d10::part2::run()
             )
         },
     ];
