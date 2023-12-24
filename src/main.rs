@@ -9,6 +9,9 @@ mod d07;
 mod d08;
 mod d09;
 mod d10;
+mod d11;
+#[path = "util/map2d.rs"]
+mod map2d;
 mod util;
 
 fn main() {
@@ -81,6 +84,13 @@ fn main() {
                 "Day 10: 1. {:?} 2. {:?}",
                 d10::part1::run(),
                 d10::part2::run()
+            )
+        },
+        || {
+            println!(
+                "Day 11: 1. {:?} 2. {:?}",
+                d11::part1::run(),
+                d11::part2::run()
             )
         },
     ];
